@@ -1,0 +1,20 @@
+##########################################
+##  Ca imaging with tracking protocol
+##########################################
+
+
+1. take thermograph with irMotion 
+
+2. take background images with MetaMorph (Multi dimensional Acquisition)
+
+3. save left and right corner coordinates with calibrate.m
+(use calibrate.m twice with changing the produced file Right.mat-> Left.mat)
+
+4. track and Ca image with curve_track.m (with MetaMorph)
+
+5. take background images with the fixed worm and calibrate_background.m (with MetaMorph)
+
+6. take thermograph with irMotion
+
+7. Move the files: Thermograph x2, Coordinates, Left.mat, Right.mat
+
